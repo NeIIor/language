@@ -1,0 +1,3 @@
+[submodule "vendor/stack"]
+	path = vendor/stack
+	url = https://github.com/NeIIor/stack.git

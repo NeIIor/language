@@ -1,0 +1,6 @@
+frontend
+backend
+optimizer
+*.o
+*.a
+clone_stack.log

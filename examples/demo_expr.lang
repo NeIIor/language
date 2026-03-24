@@ -1,0 +1,6 @@
+// UTF-8: locals a,b; expression a*b + a + b => 10*3 + 10 + 3 = 43
+жучок ВКЛ
+a punish 10;
+b punish 3;
+priprint(a * b + a + b);
+ВЫКЛ
