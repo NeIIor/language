@@ -4,7 +4,9 @@
 
 Educational C++ project: source code → binary tree → (optional) optimized tree → stack-VM-oriented assembler text. Integrates with **[NeIIor/stack](https://github.com/NeIIor/stack)** (data stack for the VM) and **[NeIIor/proc-and-ass](https://github.com/NeIIor/proc-and-ass)** (assembler + VM).
 
-Upstream language frontend/backend: [NeIIor/language](https://github.com/NeIIor/language). This fork adds layout, `Makefile`, `src/text.cpp`, UTF-8 lexer fixes, VM-oriented backend tweaks, tests, and this documentation.
+Upstream language frontend/backend: [NeIIor/language](https://github.com/NeIIor/language). A full checkout normally includes `parsing.cpp`, `backend.cpp`, `text` helpers, etc. **This repository commit may ship as a documentation/tooling overlay** (README v2, scripts, examples, submodule, Makefile for the reorganized layout): merge it into your tree that already contains the compiler sources, or combine with your branch that has `include/`, `src/`, `apps/`, and patches (`text.cpp`, UTF-8 lexer, `record_tree`, `main`→`hlt`, `priprint`→`out`, …).
+
+**Push / merge (for maintainers):** after `git submodule update --init`, authenticate to GitHub and run e.g. `git push origin main` or open a PR from a branch. This environment cannot store your credentials.
 
 ---
 
